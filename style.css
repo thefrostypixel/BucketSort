@@ -1,0 +1,40 @@
+body {
+    background: #000;
+    color: #EEE;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+* {
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, SF Pro Display, Helvetica Neue, Helvetica, Arial;
+}
+
+h1 {
+    position: fixed;
+    left: 0;
+    top: 5vh;
+    width: 100vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+num {
+    display: block;
+    position: fixed;
+    width: 3.5vw;
+    font-size: 2vw;
+}
+
+bucket {
+    display: block;
+    position: fixed;
+    width: 7vw;
+    margin: 0 .25vw;
+    height: 10vw;
+    border: .5vw solid #888;
+    border-top: none;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
